@@ -8,5 +8,5 @@ Setup And Installation
  3. Run the App
  $ npm start
  4. Login Credentials
- Admin - Email: admin@entnt.in | Password: admin123
- Patient - Email: john@entnt.in | Password: patient123
+ Admin - Email: admin@gmail.com | Password: admin123
+ Patient - Email: john@gmail.com| Password: patient123
