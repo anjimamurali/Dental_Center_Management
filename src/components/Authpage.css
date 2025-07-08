@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3a8a, #38bdf8);
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.auth-box {
+  padding: 40px;
+  width: 360px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.auth-box h2 {
+  color: #ffffff;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.auth-input {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.auth-input:focus {
+  background: #fff;
+  box-shadow: 0 0 0 2px #1e40af;
+}
+
+.auth-button {
+  padding: 14px;
+  background-color: #1e40af;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #172554;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.auth-error {
+  background-color: #fee2e2; /* Light red */
+  color: #b91c1c;            /* Dark red */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  box-shadow: 0 0 5px rgba(185, 28, 28, 0.3);
+  text-align: center;
+}
